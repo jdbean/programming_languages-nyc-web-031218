@@ -1,3 +1,5 @@
+require 'pry'
+
 def reformat_languages(languages)
   new_hash
   langs = languages.collect do |styles, language_data|
@@ -6,10 +8,10 @@ def reformat_languages(languages)
     end
   .uniq
   end
-  
-      
-    
-    
+
+
+
+
 end
 
 def new_hash
