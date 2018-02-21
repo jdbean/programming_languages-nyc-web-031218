@@ -3,7 +3,7 @@ require "pry"
 def reformat_languages(languages)
   new_hash = {}
   languages.each do |oo_or_func, languages_hash|
-    oo_or_func.each do |language, attributes_hash|
+    attributes_hash.each do |language, attributes_hash|
       binding.pry
     end
   binding.pry
