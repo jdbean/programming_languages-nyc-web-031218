@@ -9,7 +9,6 @@ def reformat_languages(languages)
         new_hash[language][attribute] = value
         new_hash[language][:style] = []
         new_hash[:style] << oo_or_func
-      binding.pry
       end
     end
   end
