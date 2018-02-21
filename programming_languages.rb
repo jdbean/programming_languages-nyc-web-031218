@@ -2,7 +2,8 @@ require "pry"
 
 def reformat_languages(languages)
   binding.pry
-  langs = languages.collect do |styles, language_data|
+  new_hash = {}
+  languages.collect do |styles, language_data|
     styles.collect do |language, type|
       language
     end
