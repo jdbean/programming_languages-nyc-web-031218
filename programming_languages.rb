@@ -6,13 +6,13 @@ def reformat_languages(languages)
     styles.collect do |language, type|
       language
     end
+  binding.pry
   .uniq
+  binding.pry
   end
-
-
-
-
 end
+
+reformat_languages(languages)
 
 def new_hash
   hash = {}
