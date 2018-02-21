@@ -1,4 +1,4 @@
-require 'pry'
+require "pry"
 
 def reformat_languages(languages)
   langs = languages.collect do |styles, language_data|
