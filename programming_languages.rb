@@ -3,9 +3,9 @@ require "pry"
 def reformat_languages(languages)
   binding.pry
   new_hash = {}
-  languages.collect do |styles, language_data|
-    styles.collect do |language, type|
-      language
+  languages.each do |oo_or_func, languages_hash|
+    oo_or_func.each do |language, attributes_hash|
+      bindin.binding.pry
     end
   binding.pry
   .uniq
