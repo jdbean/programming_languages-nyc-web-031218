@@ -1,6 +1,6 @@
 require 'pry'
 
-def reformat_languages(languages)
+def reformat_languages(languages_by_style)
   new_hash
   langs = languages.collect do |styles, language_data|
     styles.collect do |language, type|
