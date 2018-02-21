@@ -12,8 +12,3 @@ def reformat_languages(languages)
   binding.pry
   end
 end
-
-
-def new_hash
-  hash = {}
-end
