@@ -12,7 +12,6 @@ def reformat_languages(languages)
   end
 end
 
-reformat_languages()
 
 def new_hash
   hash = {}
